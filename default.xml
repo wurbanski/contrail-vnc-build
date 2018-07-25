@@ -21,14 +21,14 @@
 <project name="contrail-nova-vif-driver" remote="github" revision="e085cb692a2778367f2b567497ec3f2314ad9dc8" path="openstack/nova_contrail_vif"/>
 <project name="contrail-neutron-plugin" remote="github" revision="527ee7861097947980ab37ca3861f55ffbae3163" path="openstack/neutron_plugin"/>
 <project name="contrail-nova-extensions" remote="github" revision="ebc6cbc08338ded08056b08745c8b94932d1ef8a" path="openstack/nova_extensions"/>
-<project name="contrail-heat" remote="github" revision="4af6e3a02a8018ac1b4654c75ace46a33479b2a4" path="openstack/contrail-heat"/>
+<project name="contrail-heat" remote="github" revision="94ff060f39c133c0355b1ba13cca268574bf9874" path="openstack/contrail-heat"/>
 <project name="contrail-web-storage" remote="github" revision="8fa06791899000cf35d47f66fde8896545e50fb6"/>
 <project name="contrail-web-server-manager" remote="github" revision="df4c1efd1d3f699f28c3e0b81d9425fd86d120d4"/>
 <project name="contrail-web-controller" remote="github" revision="0abde037574eac2b2860ee00e4024fc7760c9902"/>
 <project name="contrail-web-core" remote="github" revision="2d913ecf3d7d011a91ab71d7caafc625e1174cf8"/>
 <project name="contrail-webui-third-party" remote="github" revision="10d5493cc093e0b67e80af7e5b16b69f63e600ab" path="contrail-webui-third-party"/>
 <!-- vCenter projects -->
-<project name="contrail-java-api" remote="github" revision="fbdca0e29b54308bebb279f4793f4eb42287ea3f" path="java-api"/>
+<project name="contrail-java-api" remote="github" revision="ac2b0ae3a74e3c66c93e890630d6be627d61f52c" path="java-api"/>
 <project name="vijava" remote="github" revision="9c6b48b3642975809e17ab00df75d81ec2e5ae46" path="vijava"/>
 <project name="contrail-vcenter-plugin" remote="github" revision="775517f4686162fb59286d9ae203e34062417c86" path="vcenter-plugin"/>
 <project name="contrail-vcenter-manager" remote="github" revision="475c2c870c58b37a2cc4d03a3183cc9d1ed5d0b7" path="vcenter-manager"/>
@@ -39,6 +39,6 @@
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="contrail-specs" remote="github" revision="e126550167c7e6ffc0e913cf00ff865ae10c711d" path="contrail-specs"/>
-<project name="contrail-test" remote="github" revision="875825f29249ec4e58144fb24756438de4dc05d7" path="third_party/contrail-test"/>
+<project name="contrail-test" remote="github" revision="8b3cb33a33ba04a34e15722f4947d041ef7b62dc" path="third_party/contrail-test"/>
 
 </manifest>
