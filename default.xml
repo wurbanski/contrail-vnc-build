@@ -38,7 +38,7 @@
 <project name="contrail-fabric-utils" remote="github" revision="36572b964952d3eca72400f98b49d9f9b7b6121d" path="third_party/fabric-utils"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
-<project name="contrail-specs" remote="github" revision="e126550167c7e6ffc0e913cf00ff865ae10c711d" path="contrail-specs"/>
+<project name="contrail-specs" remote="github" revision="872dcbf6e50a3ab00f4a7f49e698894627c1c4dd" path="contrail-specs"/>
 <project name="contrail-test" remote="github" revision="9b422959452ed07fcaf6e6c4c1d2012e96456d8a" path="third_party/contrail-test"/>
 
 </manifest>
