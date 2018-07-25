@@ -6,8 +6,8 @@
 <project name="contrail-build" remote="github" path="tools/build" revision="2c3392e75170619f6813c743c2a50cce77f80e1d">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" path="controller" revision="e0d8ad10434aee3a724f3f01efed8af49c8123ac"/>
-<project name="contrail-vrouter" remote="github" path="vrouter" revision="b8e86b006830dfeb0bb2e91f861e6bea078a0e7e"/>
+<project name="contrail-controller" remote="github" path="controller" revision="8488665fc1ac5b61d0801969d529e78e300191ab"/>
+<project name="contrail-vrouter" remote="github" path="vrouter" revision="7bb10b4b68ca912f41c12ce84557e397b7f6b804"/>
 <project name="contrail-third-party" remote="github" path="third_party" revision="22c9a946f803775dcce091354f1fb87926d2c156"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh" revision="b5d5c1ee1117f59d8f00de620c8b9db236f6cb1e"/>
 <project name="contrail-common" remote="github" path="src/contrail-common" revision="0667e015900982189d1e3252476eb66187166b9d"/>
@@ -18,10 +18,10 @@
   <copyfile src="packages.make" dest="packages.make"/>
 </project>
 <project name="contrail-provisioning" remote="github" path="tools/provisioning" revision="66c6e0715c48369cf1af7d187da5607bcb7763f8"/>
-<project name="contrail-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif" revision="a51310f0877d4b8e5ebb30c6e99658368ac1e788"/>
+<project name="contrail-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif" revision="ed01d315e5707b4f670468454729dc2031c5f780"/>
 <project name="contrail-neutron-plugin" remote="github" path="openstack/neutron_plugin" revision="2c03782862580c656e6bdadbbc68e6689baae611"/>
 <project name="contrail-nova-extensions" remote="github" path="openstack/nova_extensions" revision="ebc6cbc08338ded08056b08745c8b94932d1ef8a"/>
-<project name="contrail-heat" remote="github" path="openstack/contrail-heat" revision="5d3cc89ba794b478e317cf2d3bb3693c66f89b2a"/>
+<project name="contrail-heat" remote="github" path="openstack/contrail-heat" revision="31e711abf1b161ee19d9022ad1ff3ac720766138"/>
 <project name="contrail-web-storage" remote="github" revision="687eea1b8405cfec41dc66d29fa2cab32264e831"/>
 <project name="contrail-web-server-manager" remote="github" revision="7c7a006b0cc13cb6d4861b99bcebd0c0494ef43a"/>
 <project name="contrail-web-controller" remote="github" revision="1534c6ddaf29384a2d8bffcbe76bce42ca5efde5"/>
@@ -39,6 +39,6 @@
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="contrail-specs" remote="github" revision="2e732c4a0d4eb1a4b6180ea380cbc41dbca73da9" path="contrail-specs"/>
-<project name="contrail-test" remote="github" path="third_party/contrail-test" revision="51fe4e2ac447f3d43aff4251693a6e0d3644a0dc"/>
+<project name="contrail-test" remote="github" path="third_party/contrail-test" revision="22203c25944e03b6a936af8be8cafdeb7ae98a0b"/>
 
 </manifest>
