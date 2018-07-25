@@ -6,12 +6,12 @@
 <project name="contrail-build" remote="github" revision="ae7a389b70b18ffdc29c559c0b23f6a9e1c3f8f3" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" revision="84c89e1d804433abc7b3ab03ad1a7218e1e4c84a" path="controller"/>
+<project name="contrail-controller" remote="github" revision="2cee751668b67cfc8671ab74831b44560c0c3958" path="controller"/>
 <project name="contrail-vrouter" remote="github" revision="eb52ad2f66f014556e3d36e6c4c67bfa4475e875" path="vrouter"/>
 <project name="contrail-third-party" remote="github" revision="8c6a323e2b0659a728540073e4710f032098ee70" path="third_party"/>
 <project name="contrail-sandesh" remote="github" revision="c6f41806da973f0a6130e214fdf763152694c876" path="tools/sandesh"/>
 <project name="contrail-common" remote="github" revision="4a69cf368a8773f950ae04475f6449027d65ab32" path="src/contrail-common"/>
-<project name="contrail-analytics" remote="github" revision="38ba812673918e58fdd80f444857d656ed8f3019" path="src/contrail-analytics"/>
+<project name="contrail-analytics" remote="github" revision="6f349116528481be91f64e20f45bc30c3473f692" path="src/contrail-analytics"/>
 <project name="contrail-api-client" remote="github" revision="e4920ccda7a8ad27771ff34a351da04d2ce3fe2d" path="src/contrail-api-client"/>
 <!-- Packages are split between contrail-packages and contrail-packaging -->
 <project name="contrail-packages" remote="github" revision="3085e272f6ccc7a2284b2d9f3ba9e43e3f32e4fb" path="tools/packages">
@@ -38,7 +38,7 @@
 <project name="contrail-fabric-utils" remote="github" revision="36572b964952d3eca72400f98b49d9f9b7b6121d" path="third_party/fabric-utils"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
-<project name="contrail-specs" remote="github" revision="e126550167c7e6ffc0e913cf00ff865ae10c711d" path="contrail-specs"/>
-<project name="contrail-test" remote="github" revision="3453be9d79808b943e765398421fe2ec5becfc06" path="third_party/contrail-test"/>
+<project name="contrail-specs" remote="github" revision="2e732c4a0d4eb1a4b6180ea380cbc41dbca73da9" path="contrail-specs"/>
+<project name="contrail-test" remote="github" revision="fd6cb03a2112a6669e05d964084d2b63c0659825" path="third_party/contrail-test"/>
 
 </manifest>
