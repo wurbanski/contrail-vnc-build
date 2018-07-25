@@ -6,7 +6,7 @@
 <project name="contrail-build" remote="github" revision="ae7a389b70b18ffdc29c559c0b23f6a9e1c3f8f3" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" revision="9b502005ed44d78edb1894a46f4b92305a0126e3" path="controller"/>
+<project name="contrail-controller" remote="github" revision="75310ba5e8193c70632f2ca70e2bb4a3c82ab87c" path="controller"/>
 <project name="contrail-vrouter" remote="github" revision="eb52ad2f66f014556e3d36e6c4c67bfa4475e875" path="vrouter"/>
 <project name="contrail-third-party" remote="github" revision="8c6a323e2b0659a728540073e4710f032098ee70" path="third_party"/>
 <project name="contrail-sandesh" remote="github" revision="c6f41806da973f0a6130e214fdf763152694c876" path="tools/sandesh"/>
