@@ -6,13 +6,13 @@
 <project name="contrail-build" remote="github" path="tools/build" revision="2c3392e75170619f6813c743c2a50cce77f80e1d">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" path="controller" revision="a788b1749256bfac2a1e60137b96145e9ad74db9"/>
-<project name="contrail-vrouter" remote="github" path="vrouter" revision="7bb10b4b68ca912f41c12ce84557e397b7f6b804"/>
+<project name="contrail-controller" remote="github" path="controller" revision="fbcf20a6f66e5a7044946a3e170358cc32195c0c"/>
+<project name="contrail-vrouter" remote="github" path="vrouter" revision="f397c93dfca211222ff43e06faa130f831d34c90"/>
 <project name="contrail-third-party" remote="github" path="third_party" revision="22c9a946f803775dcce091354f1fb87926d2c156"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh" revision="b5d5c1ee1117f59d8f00de620c8b9db236f6cb1e"/>
 <project name="contrail-common" remote="github" path="src/contrail-common" revision="0667e015900982189d1e3252476eb66187166b9d"/>
-<project name="contrail-analytics" remote="github" path="src/contrail-analytics" revision="62ae6adbf504ae7a0279b1ddf46a1c9ca8cc1683"/>
-<project name="contrail-api-client" remote="github" path="src/contrail-api-client" revision="a5e35160a685b2fbb5f781958adf17be1358bd6a"/>
+<project name="contrail-analytics" remote="github" path="src/contrail-analytics" revision="87798b0f31e1db8459fbe989c62eebbbd59b3913"/>
+<project name="contrail-api-client" remote="github" path="src/contrail-api-client" revision="76b4f41c35dcd1543f5415035143a4eeb2b5652c"/>
 <!-- Packages are split between contrail-packages and contrail-packaging -->
 <project name="contrail-packages" remote="github" path="tools/packages" revision="648f8a48159a273644ccd1a6882986dd2acd0597">
   <copyfile src="packages.make" dest="packages.make"/>
