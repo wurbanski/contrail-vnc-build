@@ -6,7 +6,7 @@
 <project name="contrail-build" remote="github" revision="ae7a389b70b18ffdc29c559c0b23f6a9e1c3f8f3" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" revision="e1f7474abd7861a2eb70760d722d68efd2bbcf6f" path="controller"/>
+<project name="contrail-controller" remote="github" revision="daa3b3e4ed99eb158bf3911ba4b8e58f733ec528" path="controller"/>
 <project name="contrail-vrouter" remote="github" revision="b7cb7377276d66aec616eac1a05f68875869c2dc" path="vrouter"/>
 <project name="contrail-third-party" remote="github" revision="8c6a323e2b0659a728540073e4710f032098ee70" path="third_party"/>
 <project name="contrail-sandesh" remote="github" revision="c6f41806da973f0a6130e214fdf763152694c876" path="tools/sandesh"/>
@@ -21,7 +21,7 @@
 <project name="contrail-nova-vif-driver" remote="github" revision="e085cb692a2778367f2b567497ec3f2314ad9dc8" path="openstack/nova_contrail_vif"/>
 <project name="contrail-neutron-plugin" remote="github" revision="527ee7861097947980ab37ca3861f55ffbae3163" path="openstack/neutron_plugin"/>
 <project name="contrail-nova-extensions" remote="github" revision="ebc6cbc08338ded08056b08745c8b94932d1ef8a" path="openstack/nova_extensions"/>
-<project name="contrail-heat" remote="github" revision="94ff060f39c133c0355b1ba13cca268574bf9874" path="openstack/contrail-heat"/>
+<project name="contrail-heat" remote="github" revision="ad78a93b484942bc156894e1fa1db246e95dde83" path="openstack/contrail-heat"/>
 <project name="contrail-web-storage" remote="github" revision="8fa06791899000cf35d47f66fde8896545e50fb6"/>
 <project name="contrail-web-server-manager" remote="github" revision="df4c1efd1d3f699f28c3e0b81d9425fd86d120d4"/>
 <project name="contrail-web-controller" remote="github" revision="0abde037574eac2b2860ee00e4024fc7760c9902"/>
@@ -39,6 +39,6 @@
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="contrail-specs" remote="github" revision="e126550167c7e6ffc0e913cf00ff865ae10c711d" path="contrail-specs"/>
-<project name="contrail-test" remote="github" revision="d8b3677955e376f127b5b69e87d8f2946c3b34a8" path="third_party/contrail-test"/>
+<project name="contrail-test" remote="github" revision="2b9a97aa3133e3b013e3d8217cc38a08743a778e" path="third_party/contrail-test"/>
 
 </manifest>
