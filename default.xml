@@ -6,7 +6,7 @@
 <project name="contrail-build" remote="github" path="tools/build" revision="2c3392e75170619f6813c743c2a50cce77f80e1d">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" path="controller" revision="6ebef9350a168b49e211d8c580ff0d6c65e16a57"/>
+<project name="contrail-controller" remote="github" path="controller" revision="a788b1749256bfac2a1e60137b96145e9ad74db9"/>
 <project name="contrail-vrouter" remote="github" path="vrouter" revision="7bb10b4b68ca912f41c12ce84557e397b7f6b804"/>
 <project name="contrail-third-party" remote="github" path="third_party" revision="22c9a946f803775dcce091354f1fb87926d2c156"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh" revision="b5d5c1ee1117f59d8f00de620c8b9db236f6cb1e"/>
@@ -33,7 +33,7 @@
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
 <project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="9c21dea87d8b4cb76638a092deefd67d742f1cd0"/>
 <project name="contrail-vrouter-java-api" remote="github" path="vrouter-java-api" revision="8bcac3732ea0be69317e39992dc5c66407873277"/>
-<project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="b3d42ccbbe764ea6026aebf01c93347d69c301ad"/>
+<project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="450e9ac39f724d448a9e6a5fcb9b288f69a5621d"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="contrail-fabric-utils" remote="github" path="third_party/fabric-utils" revision="8fa5b856b8150fb3cb6fc0c9a6894730a79daca2"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
