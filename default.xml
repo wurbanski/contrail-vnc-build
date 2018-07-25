@@ -6,12 +6,12 @@
 <project name="contrail-build" remote="github" path="tools/build" revision="2c3392e75170619f6813c743c2a50cce77f80e1d">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" path="controller" revision="afb365bcb059fe5983db15699fe5f53f5bb0bcd7"/>
-<project name="contrail-vrouter" remote="github" path="vrouter" revision="de1ebe16d125383cdd00aa135ab45d281463bc24"/>
+<project name="contrail-controller" remote="github" path="controller" revision="b06b9d26741bf16aec14058e779fcb2d3aaaf188"/>
+<project name="contrail-vrouter" remote="github" path="vrouter" revision="23d2ac8f20aa0112fb6362afaa5e95d705f15b38"/>
 <project name="contrail-third-party" remote="github" path="third_party" revision="ea2fe0346e73c53c244f9ae8b8783652691e4125"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh" revision="b5d5c1ee1117f59d8f00de620c8b9db236f6cb1e"/>
-<project name="contrail-common" remote="github" path="src/contrail-common" revision="66849a28e4dd33f8190b9b1abb772b0bfdcee415"/>
-<project name="contrail-analytics" remote="github" path="src/contrail-analytics" revision="9baaf814e628f02e9e3b21e19319b67b4e455143"/>
+<project name="contrail-common" remote="github" path="src/contrail-common" revision="0667e015900982189d1e3252476eb66187166b9d"/>
+<project name="contrail-analytics" remote="github" path="src/contrail-analytics" revision="9abcdec4c72d86d7a2e345b1611d6ef8cf137bb8"/>
 <project name="contrail-api-client" remote="github" path="src/contrail-api-client" revision="3bcd7b34c926480526340885cedc28b3d52f4ef4"/>
 <!-- Packages are split between contrail-packages and contrail-packaging -->
 <project name="contrail-packages" remote="github" path="tools/packages" revision="e5b014ba6270f19bde347b0ea7b043ea923eef17">
@@ -19,21 +19,21 @@
 </project>
 <project name="contrail-provisioning" remote="github" path="tools/provisioning" revision="66c6e0715c48369cf1af7d187da5607bcb7763f8"/>
 <project name="contrail-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif" revision="a51310f0877d4b8e5ebb30c6e99658368ac1e788"/>
-<project name="contrail-neutron-plugin" remote="github" path="openstack/neutron_plugin" revision="87308505ad86c8044aedf73564b6fcfe475f5e63"/>
+<project name="contrail-neutron-plugin" remote="github" path="openstack/neutron_plugin" revision="2c03782862580c656e6bdadbbc68e6689baae611"/>
 <project name="contrail-nova-extensions" remote="github" path="openstack/nova_extensions" revision="ebc6cbc08338ded08056b08745c8b94932d1ef8a"/>
 <project name="contrail-heat" remote="github" path="openstack/contrail-heat" revision="5b3a138fb79b4c810f4a63c90aa58b6be05c77f0"/>
 <project name="contrail-web-storage" remote="github" revision="687eea1b8405cfec41dc66d29fa2cab32264e831"/>
 <project name="contrail-web-server-manager" remote="github" revision="7c7a006b0cc13cb6d4861b99bcebd0c0494ef43a"/>
 <project name="contrail-web-controller" remote="github" revision="1534c6ddaf29384a2d8bffcbe76bce42ca5efde5"/>
-<project name="contrail-web-core" remote="github" revision="abb593f9a21bb1aba611eff679ae470739d6bbc2"/>
+<project name="contrail-web-core" remote="github" revision="2c2878c7d741f375037d0e683eef2a66b825ffb5"/>
 <project name="contrail-webui-third-party" remote="github" path="contrail-webui-third-party" revision="caf337b0b1d7fa075b0abeacb7bb170195833e61"/>
 <!-- vCenter projects -->
 <project name="contrail-java-api" remote="github" path="java-api" revision="7ba7b707346bd980b738c9f7d670f3c31118a709"/>
 <project name="vijava" remote="github" path="vijava" revision="b2265a198ef4531adbea7257903e872b0d768040"/>
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
-<project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="d966bab78e8aa9d7a082aa2791b5de75ea5a0d38"/>
+<project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="f17be8d687eafcef801fdafa3ce72f1901e38ba0"/>
 <project name="contrail-vrouter-java-api" remote="github" path="vrouter-java-api" revision="8bcac3732ea0be69317e39992dc5c66407873277"/>
-<project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="4f47ca29c8abc2715cce9eb1c7f3963a6fd3f170"/>
+<project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="c738f99cf3dd5fa100ae6dabf8e3ae29d57208fa"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="contrail-fabric-utils" remote="github" path="third_party/fabric-utils" revision="8fa5b856b8150fb3cb6fc0c9a6894730a79daca2"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
