@@ -28,7 +28,7 @@
 <project name="contrail-web-core" remote="github" revision="2d913ecf3d7d011a91ab71d7caafc625e1174cf8"/>
 <project name="contrail-webui-third-party" remote="github" revision="10d5493cc093e0b67e80af7e5b16b69f63e600ab" path="contrail-webui-third-party"/>
 <!-- vCenter projects -->
-<project name="contrail-java-api" remote="github" revision="ac2b0ae3a74e3c66c93e890630d6be627d61f52c" path="java-api"/>
+<project name="contrail-java-api" remote="github" revision="db6b9fcf52995bab9a55fcc55749fa4b0d394a69" path="java-api"/>
 <project name="vijava" remote="github" revision="9c6b48b3642975809e17ab00df75d81ec2e5ae46" path="vijava"/>
 <project name="contrail-vcenter-plugin" remote="github" revision="775517f4686162fb59286d9ae203e34062417c86" path="vcenter-plugin"/>
 <project name="contrail-vcenter-manager" remote="github" revision="475c2c870c58b37a2cc4d03a3183cc9d1ed5d0b7" path="vcenter-manager"/>
