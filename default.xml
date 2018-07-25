@@ -31,9 +31,9 @@
 <project name="contrail-java-api" remote="github" revision="038d2264ec1ee506c5bd2b53be45b141c527903b" path="java-api"/>
 <project name="vijava" remote="github" revision="9c6b48b3642975809e17ab00df75d81ec2e5ae46" path="vijava"/>
 <project name="contrail-vcenter-plugin" remote="github" revision="775517f4686162fb59286d9ae203e34062417c86" path="vcenter-plugin"/>
-<project name="contrail-vcenter-manager" remote="github" revision="fe78b94b9502e4e27451ffb01e3195c70a2ab9ed" path="vcenter-manager"/>
+<project name="contrail-vcenter-manager" remote="github" revision="475c2c870c58b37a2cc4d03a3183cc9d1ed5d0b7" path="vcenter-manager"/>
 <project name="contrail-vrouter-java-api" remote="github" revision="56d53c3f38714c04f1805107fcd18569d2df27cc" path="vrouter-java-api"/>
-<project name="contrail-vro-plugin" remote="github" revision="da38ed4d14d712212b0040decce64874e840b457" path="vro-plugin"/>
+<project name="contrail-vro-plugin" remote="github" revision="4936ba064019f81b9eedb5d2a5c63e97f4c425c4" path="vro-plugin"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="contrail-fabric-utils" remote="github" revision="36572b964952d3eca72400f98b49d9f9b7b6121d" path="third_party/fabric-utils"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
