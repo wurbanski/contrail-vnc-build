@@ -6,7 +6,7 @@
 <project name="contrail-build" remote="github" path="tools/build" revision="2c3392e75170619f6813c743c2a50cce77f80e1d">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" path="controller" revision="ff490e79832d188034dfb63477ff8a237c323ede"/>
+<project name="contrail-controller" remote="github" path="controller" revision="563ed03855d96b613a7d2c26a4c7efa5ab491d69"/>
 <project name="contrail-vrouter" remote="github" path="vrouter" revision="de1ebe16d125383cdd00aa135ab45d281463bc24"/>
 <project name="contrail-third-party" remote="github" path="third_party" revision="ea2fe0346e73c53c244f9ae8b8783652691e4125"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh" revision="b5d5c1ee1117f59d8f00de620c8b9db236f6cb1e"/>
@@ -28,7 +28,7 @@
 <project name="contrail-web-core" remote="github" revision="abb593f9a21bb1aba611eff679ae470739d6bbc2"/>
 <project name="contrail-webui-third-party" remote="github" path="contrail-webui-third-party" revision="caf337b0b1d7fa075b0abeacb7bb170195833e61"/>
 <!-- vCenter projects -->
-<project name="contrail-java-api" remote="github" path="java-api" revision="2c6c80a0a619f2d851f3f659dbdbd6a3ed402c47"/>
+<project name="contrail-java-api" remote="github" path="java-api" revision="f922b1b62278ad2fcac850da08bc6ade3a055174"/>
 <project name="vijava" remote="github" path="vijava" revision="b2265a198ef4531adbea7257903e872b0d768040"/>
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
 <project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="d966bab78e8aa9d7a082aa2791b5de75ea5a0d38"/>
