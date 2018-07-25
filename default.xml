@@ -14,7 +14,7 @@
 <project name="contrail-analytics" remote="github" path="src/contrail-analytics" revision="71abc0051f7116836de5f06772547e9e5d841c4c"/>
 <project name="contrail-api-client" remote="github" path="src/contrail-api-client" revision="3bcd7b34c926480526340885cedc28b3d52f4ef4"/>
 <!-- Packages are split between contrail-packages and contrail-packaging -->
-<project name="contrail-packages" remote="github" path="tools/packages" revision="a635d7269370ea3cd66bc333fe999e0be010b816">
+<project name="contrail-packages" remote="github" path="tools/packages" revision="e5b014ba6270f19bde347b0ea7b043ea923eef17">
   <copyfile src="packages.make" dest="packages.make"/>
 </project>
 <project name="contrail-provisioning" remote="github" path="tools/provisioning" revision="66c6e0715c48369cf1af7d187da5607bcb7763f8"/>
@@ -31,7 +31,7 @@
 <project name="contrail-java-api" remote="github" path="java-api" revision="2c6c80a0a619f2d851f3f659dbdbd6a3ed402c47"/>
 <project name="vijava" remote="github" path="vijava" revision="b2265a198ef4531adbea7257903e872b0d768040"/>
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
-<project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="472b884c2f43e8027f5cfdb1d6f9b183ccb3dd77"/>
+<project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="661c2c3f2a423629d80efe6c0e3495b7bc78936a"/>
 <project name="contrail-vrouter-java-api" remote="github" path="vrouter-java-api" revision="8bcac3732ea0be69317e39992dc5c66407873277"/>
 <project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="ee55942a35bb739947043a04e35d223b4b02f372"/>
 <!-- Used by OpenContrail CI jobs -->
@@ -39,6 +39,6 @@
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="contrail-specs" remote="github" revision="cf0613b8af0a899900649095c3a20dcd395d248d" path="contrail-specs"/>
-<project name="contrail-test" remote="github" path="third_party/contrail-test" revision="3e57c3c23ead800fa691aa5945252c379e529d6c"/>
+<project name="contrail-test" remote="github" path="third_party/contrail-test" revision="434002da9029e3627f3468e4df1467592ae07e08"/>
 
 </manifest>
