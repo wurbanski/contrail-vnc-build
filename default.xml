@@ -21,14 +21,14 @@
 <project name="contrail-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif" revision="a51310f0877d4b8e5ebb30c6e99658368ac1e788"/>
 <project name="contrail-neutron-plugin" remote="github" path="openstack/neutron_plugin" revision="87308505ad86c8044aedf73564b6fcfe475f5e63"/>
 <project name="contrail-nova-extensions" remote="github" path="openstack/nova_extensions" revision="ebc6cbc08338ded08056b08745c8b94932d1ef8a"/>
-<project name="contrail-heat" remote="github" path="openstack/contrail-heat" revision="6e95517ac74869b9202e2515c09236f0f8a7d8d3"/>
+<project name="contrail-heat" remote="github" path="openstack/contrail-heat" revision="5b3a138fb79b4c810f4a63c90aa58b6be05c77f0"/>
 <project name="contrail-web-storage" remote="github" revision="687eea1b8405cfec41dc66d29fa2cab32264e831"/>
 <project name="contrail-web-server-manager" remote="github" revision="7c7a006b0cc13cb6d4861b99bcebd0c0494ef43a"/>
 <project name="contrail-web-controller" remote="github" revision="1534c6ddaf29384a2d8bffcbe76bce42ca5efde5"/>
 <project name="contrail-web-core" remote="github" revision="abb593f9a21bb1aba611eff679ae470739d6bbc2"/>
 <project name="contrail-webui-third-party" remote="github" path="contrail-webui-third-party" revision="caf337b0b1d7fa075b0abeacb7bb170195833e61"/>
 <!-- vCenter projects -->
-<project name="contrail-java-api" remote="github" path="java-api" revision="f922b1b62278ad2fcac850da08bc6ade3a055174"/>
+<project name="contrail-java-api" remote="github" path="java-api" revision="7ba7b707346bd980b738c9f7d670f3c31118a709"/>
 <project name="vijava" remote="github" path="vijava" revision="b2265a198ef4531adbea7257903e872b0d768040"/>
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
 <project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="d966bab78e8aa9d7a082aa2791b5de75ea5a0d38"/>
