@@ -10,7 +10,7 @@
 <project name="contrail-vrouter" remote="github" path="vrouter" revision="de1ebe16d125383cdd00aa135ab45d281463bc24"/>
 <project name="contrail-third-party" remote="github" path="third_party" revision="ea2fe0346e73c53c244f9ae8b8783652691e4125"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh" revision="b5d5c1ee1117f59d8f00de620c8b9db236f6cb1e"/>
-<project name="contrail-common" remote="github" path="src/contrail-common" revision="98f14906bf2a5d70a5724807639c37f919eff0ea"/>
+<project name="contrail-common" remote="github" path="src/contrail-common" revision="66849a28e4dd33f8190b9b1abb772b0bfdcee415"/>
 <project name="contrail-analytics" remote="github" path="src/contrail-analytics" revision="9baaf814e628f02e9e3b21e19319b67b4e455143"/>
 <project name="contrail-api-client" remote="github" path="src/contrail-api-client" revision="3bcd7b34c926480526340885cedc28b3d52f4ef4"/>
 <!-- Packages are split between contrail-packages and contrail-packaging -->
@@ -31,7 +31,7 @@
 <project name="contrail-java-api" remote="github" path="java-api" revision="2c6c80a0a619f2d851f3f659dbdbd6a3ed402c47"/>
 <project name="vijava" remote="github" path="vijava" revision="b2265a198ef4531adbea7257903e872b0d768040"/>
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
-<project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="3fb970c11c097f7d2719ac998e73d5377e35166d"/>
+<project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="d966bab78e8aa9d7a082aa2791b5de75ea5a0d38"/>
 <project name="contrail-vrouter-java-api" remote="github" path="vrouter-java-api" revision="8bcac3732ea0be69317e39992dc5c66407873277"/>
 <project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="4f47ca29c8abc2715cce9eb1c7f3963a6fd3f170"/>
 <!-- Used by OpenContrail CI jobs -->
