@@ -33,12 +33,12 @@
 <project name="contrail-vcenter-plugin" remote="github" path="vcenter-plugin" revision="3dee2b90a4d78b9405573dabb94c02c2d35017bf"/>
 <project name="contrail-vcenter-manager" remote="github" path="vcenter-manager" revision="9c21dea87d8b4cb76638a092deefd67d742f1cd0"/>
 <project name="contrail-vrouter-java-api" remote="github" path="vrouter-java-api" revision="8bcac3732ea0be69317e39992dc5c66407873277"/>
-<project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="b48ac4ad27bb80745377d037a421d44dcdc28787"/>
+<project name="contrail-vro-plugin" remote="github" path="vro-plugin" revision="b3d42ccbbe764ea6026aebf01c93347d69c301ad"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="contrail-fabric-utils" remote="github" path="third_party/fabric-utils" revision="8fa5b856b8150fb3cb6fc0c9a6894730a79daca2"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="contrail-specs" remote="github" revision="2e732c4a0d4eb1a4b6180ea380cbc41dbca73da9" path="contrail-specs"/>
-<project name="contrail-test" remote="github" path="third_party/contrail-test" revision="80e245bee1d4b153a4b7fb7eb788f61a64904156"/>
+<project name="contrail-test" remote="github" path="third_party/contrail-test" revision="dc9e08179df23a7a8dbf45981a0ac8a44d2270b7"/>
 
 </manifest>
