@@ -6,8 +6,8 @@
 <project name="contrail-build" remote="github" revision="ae7a389b70b18ffdc29c559c0b23f6a9e1c3f8f3" path="tools/build">
   <copyfile src="SConstruct" dest="SConstruct"/>
 </project>
-<project name="contrail-controller" remote="github" revision="2cee751668b67cfc8671ab74831b44560c0c3958" path="controller"/>
-<project name="contrail-vrouter" remote="github" revision="eb52ad2f66f014556e3d36e6c4c67bfa4475e875" path="vrouter"/>
+<project name="contrail-controller" remote="github" revision="b418e38b7e8e263047acaf98828da02404de3838" path="controller"/>
+<project name="contrail-vrouter" remote="github" revision="d18a0c00261dcf78ee0d6ada0812a5594ea29bd6" path="vrouter"/>
 <project name="contrail-third-party" remote="github" revision="8c6a323e2b0659a728540073e4710f032098ee70" path="third_party"/>
 <project name="contrail-sandesh" remote="github" revision="c6f41806da973f0a6130e214fdf763152694c876" path="tools/sandesh"/>
 <project name="contrail-common" remote="github" revision="4a69cf368a8773f950ae04475f6449027d65ab32" path="src/contrail-common"/>
@@ -19,12 +19,12 @@
 </project>
 <project name="contrail-provisioning" remote="github" revision="5f84edf5e478289b4461686d7fe7486a2c844fd2" path="tools/provisioning"/>
 <project name="contrail-nova-vif-driver" remote="github" revision="e085cb692a2778367f2b567497ec3f2314ad9dc8" path="openstack/nova_contrail_vif"/>
-<project name="contrail-neutron-plugin" remote="github" revision="527ee7861097947980ab37ca3861f55ffbae3163" path="openstack/neutron_plugin"/>
+<project name="contrail-neutron-plugin" remote="github" revision="8f3da393994b1a9da453dca3ae9fb73ec35a01ea" path="openstack/neutron_plugin"/>
 <project name="contrail-nova-extensions" remote="github" revision="ebc6cbc08338ded08056b08745c8b94932d1ef8a" path="openstack/nova_extensions"/>
 <project name="contrail-heat" remote="github" revision="e16adc03fa9e705f44dbcd9cf8e9abeb237d836b" path="openstack/contrail-heat"/>
 <project name="contrail-web-storage" remote="github" revision="8fa06791899000cf35d47f66fde8896545e50fb6"/>
 <project name="contrail-web-server-manager" remote="github" revision="df4c1efd1d3f699f28c3e0b81d9425fd86d120d4"/>
-<project name="contrail-web-controller" remote="github" revision="0abde037574eac2b2860ee00e4024fc7760c9902"/>
+<project name="contrail-web-controller" remote="github" revision="1e3fdd994252ea4858e30ca544d3712aa758762d"/>
 <project name="contrail-web-core" remote="github" revision="2d913ecf3d7d011a91ab71d7caafc625e1174cf8"/>
 <project name="contrail-webui-third-party" remote="github" revision="10d5493cc093e0b67e80af7e5b16b69f63e600ab" path="contrail-webui-third-party"/>
 <!-- vCenter projects -->
@@ -33,12 +33,12 @@
 <project name="contrail-vcenter-plugin" remote="github" revision="775517f4686162fb59286d9ae203e34062417c86" path="vcenter-plugin"/>
 <project name="contrail-vcenter-manager" remote="github" revision="e63009584fe7b21cbdeb5aa035303e003e5c8d01" path="vcenter-manager"/>
 <project name="contrail-vrouter-java-api" remote="github" revision="56d53c3f38714c04f1805107fcd18569d2df27cc" path="vrouter-java-api"/>
-<project name="contrail-vro-plugin" remote="github" revision="96b30bf7cefb4bab71bd76e9b62a646e594796ea" path="vro-plugin"/>
+<project name="contrail-vro-plugin" remote="github" revision="1e8b56cb71376c98d9f6516c8e523c005f095e9e" path="vro-plugin"/>
 <!-- Used by OpenContrail CI jobs -->
 <project name="contrail-fabric-utils" remote="github" revision="36572b964952d3eca72400f98b49d9f9b7b6121d" path="third_party/fabric-utils"/>
 <project name="contrail-dpdk" remote="github" revision="358176a694f33e2ecb179d3bb41c28424ce48c2e" path="third_party/dpdk"/>
 <!-- contrail-specs repository contains per-branch directories, use master revision explicitly -->
 <project name="contrail-specs" remote="github" revision="2e732c4a0d4eb1a4b6180ea380cbc41dbca73da9" path="contrail-specs"/>
-<project name="contrail-test" remote="github" revision="fd6cb03a2112a6669e05d964084d2b63c0659825" path="third_party/contrail-test"/>
+<project name="contrail-test" remote="github" revision="759758aad2f4f4a97f7f80592ae958e74b9fe27b" path="third_party/contrail-test"/>
 
 </manifest>
